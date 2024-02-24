@@ -25,7 +25,8 @@
         android:layout_height="64dp"
         android:paddingTop="20dp"
         android:text="Cargue uno de los siguiente layouts"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textColor="#000000" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -39,7 +40,8 @@
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Cargar ConstraintLayout" />
+            android:text="Cargar ConstraintLayout"
+            android:textColor="#000000" />
 
         <Button
             android:id="@+id/btn_ConstraintLayout"
@@ -63,7 +65,8 @@
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Cargar TableLayout" />
+            android:text="Cargar TableLayout"
+            android:textColor="#000000" />
 
         <Button
             android:id="@+id/btn_tableLayput"
@@ -86,7 +89,8 @@
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Cargar Profile" />
+            android:text="Cargar Profile"
+            android:textColor="#000000" />
 
         <Button
             android:id="@+id/btn_ProfileLayout"
@@ -101,7 +105,8 @@
         android:id="@+id/ratingBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingStart="20dp" />
+        android:paddingStart="20dp"
+        android:progressBackgroundTint="#000000" />
 </LinearLayout>
 
 

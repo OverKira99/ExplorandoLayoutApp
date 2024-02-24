@@ -24,6 +24,7 @@
             android:layout_height="wrap_content"
             android:text="Moviles "
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textStyle="bold" />
 
         <TextView
@@ -32,6 +33,7 @@
             android:layout_height="wrap_content"
             android:text="Calculo"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textStyle="bold" />
     </TableRow>
 
@@ -47,6 +49,7 @@
             android:text="Fabian Suarez"
             android:textAlignment="center"
             android:textAllCaps="false"
+            android:textColor="#000000"
             android:textStyle="bold" />
 
         <TextView
@@ -54,14 +57,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="4.0"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="3.0"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textColor="#000000" />
     </TableRow>
 
     <TableRow
@@ -74,6 +79,7 @@
             android:layout_height="wrap_content"
             android:text="Juan Perez"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textStyle="bold" />
 
         <TextView
@@ -81,14 +87,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="2.0"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/textView11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="5.0"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textColor="#000000" />
     </TableRow>
 
     <TableRow
