@@ -17,7 +17,6 @@ public class TableActivity extends AppCompatActivity {
         btnregresar = findViewById(R.id.btn_menuTab);
     }
     public void clickRegresarTab(View view){
-        Intent miintent = new Intent(TableActivity.this , MainActivity.class);
-        startActivity(miintent);
+        finish();
     }
 }

@@ -17,8 +17,7 @@ public class ConstraintActivity extends AppCompatActivity {
         btnMenu = findViewById(R.id.btn_menuCons);
     }
     public void clickMenuCons(View view){
-        Intent miintent = new Intent(ConstraintActivity.this, MainActivity.class);
-        startActivity(miintent);
+        finish();
     }
 
 }

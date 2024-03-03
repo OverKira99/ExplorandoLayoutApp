@@ -17,7 +17,6 @@ public class ProfileActivity extends AppCompatActivity {
         btnMenuProf = findViewById(R.id.btn_menuProf);
     }
     public void clickMenuTable(View view){
-        Intent miintent = new Intent(ProfileActivity.this , MainActivity.class);
-        startActivity(miintent);
+        finish();
     }
 }
